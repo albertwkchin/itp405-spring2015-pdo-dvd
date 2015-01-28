@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a69d5d5-b91b-4b82-a3e7-a534843a12c5" name="Default" comment="" />
-    <ignored path="Demo_1_Songs_Lookup.iws" />
+    <list default="true" id="11540723-9626-4a30-8166-22a3a660a975" name="Default" comment="" />
+    <ignored path="DVD_PDO_Search.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +19,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Demo_1_Songs_Lookup" />
+    <favorites_list name="DVD_PDO_Search" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.11371238" vertical-offset="0" max-vertical-offset="897">
+            <state line="27" column="16" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -35,19 +35,30 @@
       <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="952">
+            <state line="4" column="49" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="results.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/results.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="0.20847268" vertical-offset="0" max-vertical-offset="1360">
               <folding>
-                <marker date="1422405989263" expanded="true" signature="275:466" placeholder="SELECT title..songs..." />
+                <marker date="1422426605164" expanded="true" signature="469:728" placeholder="SELECT title..dvds..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genres.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/genres.php">
+      <file leaf-file-name="ratings.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ratings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-              <folding />
+            <state line="11" column="31" selection-start="244" selection-end="244" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="816">
+              <folding>
+                <marker date="1422426318078" expanded="true" signature="338:477" placeholder="SELECT title..dvds..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,9 +73,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/genres.php" />
         <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/ratings.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/results.php" />
       </list>
     </option>
   </component>
@@ -101,33 +113,40 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Demo_1_Songs_Lookup" />
+              <option name="myItemId" value="DVD_PDO_Search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Demo_1_Songs_Lookup" />
+              <option name="myItemId" value="DVD_PDO_Search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Demo_1_Songs_Lookup" />
+              <option name="myItemId" value="DVD_PDO_Search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DVD_PDO_Search" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -148,30 +167,30 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a69d5d5-b91b-4b82-a3e7-a534843a12c5" name="Default" comment="" />
-      <created>1421807536603</created>
-      <updated>1421807536603</updated>
+      <changelist id="11540723-9626-4a30-8166-22a3a660a975" name="Default" comment="" />
+      <created>1422425459925</created>
+      <updated>1422425459925</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -192,75 +211,40 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="357">
+        <state line="27" column="16" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ratings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="244" selection-end="244" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="816">
+          <folding>
+            <marker date="1422426318078" expanded="true" signature="338:477" placeholder="SELECT title..dvds..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+        <state line="4" column="49" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="0.20847268" vertical-offset="0" max-vertical-offset="1360">
           <folding>
-            <marker date="1422405989263" expanded="true" signature="275:466" placeholder="SELECT title..songs..." />
+            <marker date="1422426605164" expanded="true" signature="469:728" placeholder="SELECT title..dvds..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/genres.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="10" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="952">
-          <folding>
-            <marker date="1422405989263" expanded="true" signature="275:466" placeholder="SELECT title..songs..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/genres.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/genres.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="952">
-          <folding>
-            <marker date="1422405989263" expanded="true" signature="275:466" placeholder="SELECT title..songs..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.11371238" vertical-offset="0" max-vertical-offset="897">
-          <folding />
         </state>
       </provider>
     </entry>
